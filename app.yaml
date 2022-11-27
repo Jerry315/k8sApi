@@ -1,0 +1,14 @@
+k8s:
+  nodes:
+    - name: jtthink1
+      ip: 121.36.252.154
+      user:
+      pass:
+    - name: jtthink2
+      ip: 124.70.204.12
+      user:
+      pass:
+  cluster-info:
+    endpoint: https://192.168.0.53:6443
+    cafile: ./test/certs/ca.crt
+    usercert: ./k8susers
